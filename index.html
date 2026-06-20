@@ -100,7 +100,7 @@
                             '<p style="line-height: 1.6;">' + (row.Content !== "No Data" ? row.Content : "") + '</p>' +
                         '</div>';
                     if (row.Media !== "No Data") {
-                        htmlBlock += '<div style="flex: 1; display:flex; justify-content:center;"><img src="' + parseMediaUrl(row.Media)'" style="max-width:100%; border-radius: 8px;"></div>';
+                        htmlBlock += '<div style="flex: 1; display:flex; justify-content:center;"><img src="' + parseMediaUrl(row.Media) + '" style="max-width:100%; border-radius: 8px;"></div>';
                     }
                     htmlBlock += '</div>';
                     contentDiv.innerHTML += htmlBlock;
